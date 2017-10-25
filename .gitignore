@@ -57,4 +57,7 @@ typings/
 # dotenv environment variables file
 .env
 
+<<<<<<< HEAD
 dbconnection.js
+=======
+>>>>>>> 25cc56d780936176beaf72e4f288fcbbc640e321
