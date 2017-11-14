@@ -1,7 +1,7 @@
-var express = require('express');
-var router = express.Router();
-var Vesselinfo = require('../models/vesselinfo');
-var auth = require('../models/users');
+let express = require('express');
+let router = express.Router();
+let Vesselinfo = require('../models/vesselinfo');
+let auth = require('../models/users');
 
 router.get('/:date/:mmsi?', auth.authenticate('basic', { session: false }), function(req, res, next) {
 
